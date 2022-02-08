@@ -1,3 +1,5 @@
+
+#1st
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -70,7 +72,7 @@ def Move(From,To):
     print(b)
     print(c)    
     print("")
-    time.sleep(1)
+    time.sleep(0.1)
 
 def Hanoi(N,From,To,via):
     if N==1 : 
